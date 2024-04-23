@@ -26,8 +26,7 @@ def draw_plot():
     plt.xlabel('Year')
     plt.ylabel('Sea Level (inches)')
     plt.title('Rise in Sea Level')
-    plt.xticks([1850, 1875, 1900, 1925, 1950, 1975, 2000, 2025, 2050, 2075])  # set x ticks as per test requirements
-    plt.legend()
+    plt.xticks([1850, 1875, 1900, 1925, 1950, 1975, 2000, 2025, 2050, 2075])
     
     # Save plot and return data for testing (DO NOT MODIFY)
     plt.savefig('sea_level_plot.png')
